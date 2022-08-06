@@ -27,9 +27,10 @@ h1, img {
   flex: 1;
   display: block;
   background-color: #3b82f6;
+  white-space: nowrap;
   padding: 1em;
+  color: white;
 }
-
 
 .main {
   display: flex;
