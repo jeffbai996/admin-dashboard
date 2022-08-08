@@ -19,6 +19,7 @@ ul {
 
 li {
   margin: 1em 0;
+  font-weight: bold;
 }
 
 .main, .dashboard {
