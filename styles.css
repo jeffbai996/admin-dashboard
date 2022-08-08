@@ -20,6 +20,20 @@ ul {
 li {
   margin: 1em 0;
   font-weight: bold;
+  width: fit-content;
+  transition: 0.3s;
+}
+
+li:hover {
+  transform: scale(1.1);
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: inherit;
 }
 
 .main, .dashboard {
