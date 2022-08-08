@@ -36,7 +36,7 @@ a:visited {
   color: inherit;
 }
 
-.main, .dashboard {
+.dashboard, .header, .main-content {
   padding: 1em;
 }
 
@@ -65,6 +65,8 @@ a:visited {
 
 .header {
   flex: 1;
+  box-shadow: 0 5px 2px -0px lightgray;
+  
 }
 
 .main-content {
