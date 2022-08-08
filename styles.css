@@ -64,9 +64,9 @@ a:visited {
 }
 
 .header {
+  display: grid;
   flex: 1;
   box-shadow: 0 5px 2px -0px lightgray;
-  
 }
 
 .main-content {
