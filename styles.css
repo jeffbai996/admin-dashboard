@@ -164,10 +164,28 @@ a:visited {
 }
 
 .card {
-  padding: 1em;
+  padding: 1.5em;
   border: 3px solid black;
   border-radius: 16px;
   height: 250px;
+}
+
+.card p {
+  white-space: initial;
+}
+
+.card-menu {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1em;
+}
+
+.card-menu svg {
+  transition: 0.3s ease-in-out;
+}
+
+.card-menu svg:hover {
+  transform: scale(1.2);
 }
 
 #announcement-container {
