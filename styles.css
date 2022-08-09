@@ -149,7 +149,10 @@ a:visited {
 #main-content {
   display: flex;
   flex: 4;
-  gap: 1em;
+  gap: 2em;
+  position: relative;
+  background-color: aliceblue;
+  box-shadow: inset 0 5px 2px 0px lightgray;
 }
 
 #card-container {
@@ -165,9 +168,14 @@ a:visited {
 
 .card {
   padding: 1.5em;
+  background-color: white;
   border: 3px solid black;
   border-radius: 16px;
   height: 250px;
+}
+
+.card h3 {
+  margin-top: 0;
 }
 
 .card p {
@@ -188,6 +196,56 @@ a:visited {
   transform: scale(1.2);
 }
 
-#announcement-container {
+#right-sidebar-container {
+  display: flex;
+  flex-direction: column;
   flex: 1;
+}
+
+#announcements {
+  flex: 1;
+}
+
+#announcement-box {
+  padding: 1.5em;
+  border: 3px solid black;
+  border-radius: 16px;
+  height: auto;
+  background-color: white;
+}
+
+#announcement-box h3 {
+  margin-top : 0px;
+}
+
+#announcement-box p {
+  white-space: initial;
+  padding-bottom: 1em;
+}
+
+#trending-box {
+  padding: 1.5em;
+  border: 3px solid black;
+  border-radius: 16px;
+  height: fit-content;
+  background-color: white;
+}
+
+#trending {
+  flex: 1;
+}
+
+.trending-profile {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 4fr;
+}
+
+.trending-profile h4 {
+  margin-top: 0;
+}
+
+.trending-profile img {
+  width: 48px;
+  
 }
